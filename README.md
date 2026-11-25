@@ -1,6 +1,6 @@
 <div dir="rtl" align="right">
 
-# ⚡ Sovereign V14 — پلتفرم جامع و فوق‌سریع GPU RAG با کرنل‌های Triton و Gemma-2 CUDAGraph
+# ⚡  پلتفرم جامع و فوق‌سریع GPU RAG با کرنل‌های Triton و Gemma-2 CUDAGraph
 
 <p align="center">
   <img src="https://img.shields.io/badge/OpenAI_Triton-Custom_Kernels-00A67E?style=for-the-badge&logo=openai&logoColor=white" alt="Triton"/>
@@ -20,7 +20,6 @@
 
 در سیستم‌های RAG متداول (مبتنی بر FAISS، Chroma یا Milvus)، تبدیل یک کتاب ۲,۲۰۰ صفحه‌ای (بیش از ۱۰۰,۰۰۰ قطعه متن) به بردارهای Embedding و ساخت ایندکس روی GPU بین **۱۰ تا ۳۰ دقیقه** زمان می‌برد و چندین گیگابایت VRAM مصرف می‌کند.
 
-در **Sovereign V14**:
 * 🚀 **ایندکس بیش از ۱۰۲,۰۰۰ قطعه (۲.۷۲ میلیون توکن) روی GPU تنها در `151.14 میلی‌ثانیه`!**
 * 💾 **مصرف حافظهٔ گرافیکی (VRAM) فوق‌العاده بهینه:** فقط **`89.8 MB`** برای کل کتاب ۲,۲۲۳ صفحه‌ای طب داخلی هریسون (و حدود **`400 MB`** برای ۱,۰۰۰,۰۰۰ سند!).
 * ⚡ **پاسخ‌دهی در مقیاس میکروثانیه:** اجرای گراف حافظهٔ ثبات (`Full Couplet CUDA Graph Replay`) در **`8.00 µs`** و بازیابی نهایی در **`0.17 ms`**.
